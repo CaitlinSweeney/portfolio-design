@@ -242,19 +242,28 @@ h1.post-title {
     line-height: 28px;
 }
 .lead {
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 34px;
+    line-height: 35px;
     letter-spacing: 0.3px;
     font-family: 'Libre Baskerville', serif;
     font-style: italic;
 }
+
+.lead2{
+    font-size: 75px;
+    line-height: 40px;
+    letter-spacing: 0.3px;
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+}
+
 .intro h1 {
     font-size: 44px;
     font-weight: 700;
     margin-bottom: 30px;
 }
 .intro .lead {
-    font-size: 22px;
+    font-size: 28px;
     letter-spacing: 0.3px;
     font-family: 'Libre Baskerville', serif;
     font-style: italic;
@@ -2427,12 +2436,20 @@ input[type="color"]:focus,
     border: 2px solid rgba(255,255,255,0.7);
     color: #e0e0e0;
 }
+/*input[type="text"]{
+  height: 100%;
+  min-height: 55px;
+  background-color: #fff;
+  box-shadow: -10px 10px 0px #4db0c6;
+}*/
 textarea {
     height: 100%;
     padding: 5px 10px;
     margin-bottom: 20px;
-    min-height: 234px;
-    resize: vertical;
+    min-height: 142px;
+    /*resize: vertical;
+    background-color: #fff;
+    box-shadow: 10px 10px 0px #4db0c6;*/
 }
 .btn-submit {
     -webkit-font-smoothing: antialiased;
