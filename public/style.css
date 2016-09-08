@@ -238,8 +238,8 @@ h6 {
 .section-title,
 h1.post-title {
     margin-bottom: 20px;
-    font-size: 22px;
-    line-height: 28px;
+    font-size: 26px;
+    line-height: 20px;
 }
 .lead {
     font-size: 34px;
@@ -284,6 +284,28 @@ h1.post-title {
 .inner {
     padding-top: 70px;
     padding-bottom: 70px;
+}
+.proj-description{
+  line-height: 37px;
+  font-size: 24px;
+}
+h1.proj-title {
+    margin-bottom: 20px;
+    font-size: 35px;
+    line-height: 20px;
+}
+.about{
+  font-size: 18px;
+  line-height: 28px;
+}
+.about-divide{
+  margin-left: 20px;
+}
+.contact-icon-1{
+  margin: 20px -26px;
+}
+.contact-icon-2{
+  margin: 20px -3px;
 }
 ul {
     padding: 0 0 0 18px
@@ -1200,10 +1222,15 @@ figure a .text-overlay .info span {
     padding: 0 50px;
 }
 .cbp-popup-singlePage .cbp-popup-navigation-wrap {
-    height: 104px;
+    height: 70rpx;
     background: #1a1a1b;
     z-index: 99990;
 }
+/*.cbp-popup-singlePage .cbp-popup-navigation-wrap {
+    height: 104px;
+    background: #1a1a1b;
+    z-index: 99990;
+}*/
 .cbp-popup-wrap {
     z-index: 10001
 }
@@ -2086,6 +2113,8 @@ ul.layout-switcher li a.active {
     display: inline;
     max-width: 100%;
 }
+
+
 /*-----------------------------------------------------------------------------------*/
 /*	19. SOCIAL ICONS
 /*-----------------------------------------------------------------------------------*/
@@ -2316,7 +2345,7 @@ ul.layout-switcher li a.active {
     background-color: #6ba3c5
 }
 .social a:hover .icon-s-github {
-    background-color: #6c93bb
+    background-color: #f88e3b
 }
 .social a:hover .icon-s-songkick {
     background-color: #ff3b60
@@ -2340,7 +2369,7 @@ ul.layout-switcher li a.active {
     background-color: #9acf48
 }
 .social a:hover .icon-s-instagram {
-    background-color: #b99682
+    background-color: #ff3b60
 }
 .social a:hover .icon-s-evernote {
     background-color: #9fdc82
@@ -3304,7 +3333,11 @@ textarea {
 	.footer p {
 	    margin-bottom: 20px
 	}
+  .about-divide{
+    display: none;
+  }
 }
+
 @media (max-width: 767px) {
 	.container {
 	    padding-left: 20px;
